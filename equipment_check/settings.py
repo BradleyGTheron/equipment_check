@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'product.apps.ProductConfig',
+    'instrument.apps.InstrumentConfig',
+    'record.apps.RecordConfig',
 ]
 
 MIDDLEWARE = [
